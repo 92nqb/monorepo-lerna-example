@@ -4,13 +4,13 @@
   "description": "Example of monorepo managed by lerna",
   "scripts": {
     "test": "lerna run test",
-    "bootstrap": "lerna bootstrap"
+    "build": "lerna bootstrap"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nquicenob/monorepo-lerna-example.git"
   },
-  "keywords": [],
+  "keywords": ["example", "monorepo"],
   "author": "Nicolas Quiceno <nquicenob@gmail.com>",
   "license": "MIT",
   "bugs": {

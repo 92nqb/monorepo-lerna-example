@@ -4,34 +4,26 @@
 
 ## Reference
 
-This example has been built by this [blog post](http://nquicenob.github.io/2016/12/22/monorepos-javascript.html)
+This example has been constructed as an example of this post [blog post](http://nquicenob.github.io/2016/12/22/monorepos-javascript.html)
 
 ## scripts
 
 ### Test
 
-```bash
+Run the test scripts of the monorepo modules
 
+```bash
+$ npm run test
 ```
 
 ### Build
 
-```bash
-
-```
-
-### Publish
+Build all modules of monorepo and associate them
 
 ```bash
-
+$ npm run build
 ```
 
 # License
 
 MIT @ Nicolas Quiceno
-
-
-----
-
-
-Multa el 9 del 11 en el renault
