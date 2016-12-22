@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Example of monorepo managed by lerna",
   "scripts": {
-    "test": "lerna test"
+    "test": "lerna run test",
+    "bootstrap": "lerna bootstrap"
   },
   "repository": {
     "type": "git",
