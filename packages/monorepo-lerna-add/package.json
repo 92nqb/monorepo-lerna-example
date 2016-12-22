@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-lerna-add",
+  "version": "1.0.0",
+  "description": "add numbers",
+  "main": "./dist/index.js",
+  "jsnext:main": "./src/index.js",
+  "scripts": {
+    "clean": "rimraf ./dist && mkdir ./dist || true",
+    "es5": "buble -i ./src -o ./dist",
+    "build": "npm run clean && npm run es5",
+    "test": "npm run build && node test",
+    "prepublish": "npm run build"
+  },
+  "author": "Nicolas Quiceno <nquicenob@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nquicenob/monorepo-lerna-example/issues"
+  },
+  "homepage": "https://github.com/nquicenob/monorepo-lerna-example#readme",
+  "devDependencies": {
+    "buble": "^0.15.1",
+    "rimraf": "^2.5.4"
+  }
+}
